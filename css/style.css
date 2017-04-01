@@ -202,8 +202,8 @@ nav ul li:last-child{
 }
 
 .news button{
-	background-color: #a03021;
-    border: 1px solid #c53825;
+	background-color: #6e3568;
+    border: 1px solid #9625c5;
     color: #fff;
     height: 20px;
     margin-left: 1em;
@@ -215,6 +215,7 @@ nav ul li:last-child{
 
 .appsn{
 	margin-left: 2em;
+	padding-top: 1.5px;
 }
 
 .appsn img{
