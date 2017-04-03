@@ -108,7 +108,7 @@
 .slick-prev,
 .tienda-prev
 {
-    left: -5px;
+    left: 1px;
     z-index: 5;
 }
 
