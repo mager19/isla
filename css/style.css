@@ -6,6 +6,15 @@
   font-family: 'SmallTownSkyline';
   src: local('../fonts/SmallTownSkyline.ttf'),
        url(../fonts/SmallTownSkyline.ttf) format('truetype');
+  font-family: 'Sign';
+  src: local('../fonts/Sign.ttf'),
+       url(../fonts/Sign.ttf) format('truetype');
+}
+
+@font-face{
+	  font-family: 'Gotham';
+      src: local('../fonts/Gotham.otf'),
+       url(../fonts/Gotham.otf) format('otf');
 }
 
 body{
@@ -148,16 +157,16 @@ nav ul li:last-child{
 /*Middle********/
 .middle__item{
 	background-color: #fff;
-	padding: 0.8em 0;
 }
 
 .stores__item{
-	margin-right: 1px;
+	border-right:1px solid #EEE7ED;
+	padding-left: 0.75em;
+	text-align: center;
 }
 
 .stores__item img{
-	padding: 1px;
-		
+	padding: 1.3em 0;
 }
 
 .middle__right{
@@ -171,9 +180,43 @@ nav ul li:last-child{
 	height: auto;
 }
 
+/*atardecer*/
+
+.atardecer__contenido{
+	background-image: url('../img/backinstagram.jpg');
+	background-size: 100% auto;
+	height: 85px;
+}
+
+.atardecer__contenido h3{
+	color:#fff;
+	font-family: 'Sign';
+	font-size: 2.5em;
+	text-align: center;
+	margin-left: -1em;
+}
+
+.atardecer__contenido h4{
+	color:#F9BD41;
+	font-size: 1.5em;
+	font-family: 'Helvetica';
+	font-weight: 500;
+ 	text-align: center;
+	margin-left: -1em;
+	margin-top: -0.8em;
+}
+
+.atardecer__item img{
+	padding: 0.25em 0;
+}
+
+.atardecer__slide{
+	margin-left: -2.8em;
+}
+
 .news{
 	background-image: url("../img/back2.jpg");
-	background-size: cover;
+	
 	height: 33px;
 }
 
@@ -202,8 +245,8 @@ nav ul li:last-child{
 }
 
 .news button{
-	background-color: #a03021;
-    border: 1px solid #c53825;
+	background-color: #6e3568;
+    border: 1px solid #9625c5;
     color: #fff;
     height: 20px;
     margin-left: 1em;
@@ -215,6 +258,7 @@ nav ul li:last-child{
 
 .appsn{
 	margin-left: 2em;
+	padding-top: 1.3px;
 }
 
 .appsn img{
