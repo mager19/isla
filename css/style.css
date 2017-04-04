@@ -58,7 +58,7 @@ select {
   .slide__principal .slick-list,
   .slide__principal .slick-track,
   .slide__principal .slick-slide{
-    height: 66vh;
+    height: 90vh;
     width: 100vw;
     display: flex;
   }
