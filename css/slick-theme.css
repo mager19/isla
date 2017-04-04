@@ -154,9 +154,9 @@
     height:18px;
 }
 
-
 .slick-list.draggable{
     padding: 0px!important;
+    margin-left: 1px;
 }
 
 [dir='rtl'] .slick-prev:before,
@@ -312,4 +312,28 @@
 {
     opacity: .75;
     color: black;
+}
+
+
+@media screen and (max-width:480px) {
+
+    .atardecer-prev {
+        left: 10px;
+        margin-top: 10px;
+    }
+
+    .atardecer-next{
+        margin-top: 10px;
+        right: 10px;
+    } 
+
+    .tienda-next {
+        right: 10px;
+    }
+
+    .tienda-prev {
+        left: 5px;
+    }
+
+
 }
