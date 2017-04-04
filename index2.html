@@ -130,19 +130,8 @@
 		<!-- Slide Principal -->
 			<div class="col-md-12 nopadding">
 				<div class="slide__principal">	
-					<div class="slide__item" >
-						<picture>
-						    <source srcset="img/header__movil.jpg" media="(max-width: 480px)">
-						    <img src="img/header__prueba.jpg" >
-						</picture>
-					</div>		
-
-					<div class="slide__item">
-						<picture>
-						    <source srcset="img/header__movil.jpg" media="(max-width: 480px)">
-						    <img src="img/header__prueba.jpg" >
-						</picture>
-					</div>				
+					<div class="slide__item" style="background-image: url('../img/header__prueba.jpg'); height: 66vh"></div>
+					<div class="slide__item" style="background-image: url('../img/header2.jpg'); height: 66vh"></div>							
 				</div>
 			</div>
 		<!-- /Slide Principal -->
@@ -151,9 +140,7 @@
 </header>
 
 
-
-
-	<!-- Middle -->
+<!-- Middle -->
 <section class="middle">
 	<div class="container">
 		<div class="row">
@@ -445,7 +432,7 @@
 $(document).ready(function(){
 
   $('.slide__principal').slick({
-		autoplay: false,
+		autoplay: true,
 		dots: false,
 		infinite: true,
   		slidesToShow: 1,

@@ -42,8 +42,9 @@ select {
     width: 34px!important;
 }
 
-.slide__item img{
-	width: 100%;
+.slide__item{
+	background-size: cover;
+	background-position: top center;
 }
 
 /*nav*/
