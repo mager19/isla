@@ -1379,7 +1379,7 @@ td.event.important {
 	}
 
 	body > section.apps2 {
-    	background-size: 100%;
+    	background-size: 100%!important;
 	}
 }
 
