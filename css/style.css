@@ -47,6 +47,22 @@ select {
 	background-position: top center;
 }
 
+.slide1{
+	background-image: url('../img/header__prueba.jpg');
+}
+
+.slide2{
+	background-image: url('../img/header2.jpg');
+}
+
+  .slide__principal .slick-list,
+  .slide__principal .slick-track,
+  .slide__principal .slick-slide{
+    height: 66vh;
+    width: 100vw;
+    display: flex;
+  }
+
 /*nav*/
 nav{
 	position: absolute;
