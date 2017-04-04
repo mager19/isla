@@ -1377,6 +1377,10 @@ td.event.important {
 	.footer__container--grande{
 		height: 50vh!important;
 	}
+
+	body > section.apps2 {
+    	background-size: 100%;
+	}
 }
 
 @media screen and (min-width:1600px) {
