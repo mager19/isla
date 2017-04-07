@@ -32,6 +32,10 @@ select {
 }
 /*Header*********/
 
+.logoisla{
+    z-index: 2;
+}
+
 .slick-prev:before {
     left: -1px!important;
     width: 34px!important;
@@ -1398,12 +1402,18 @@ td.event.important {
 	body > section.apps2 {
     	background-size: 100%!important;
 	}
+
 }
 
 @media screen and (min-width:1600px) {
 	
 	.middle--bottom{
 		margin-top: 0vh;
+	}
+
+	.logoisla {
+	    position: absolute;
+	    left: 19%;
 	}
 }
 
