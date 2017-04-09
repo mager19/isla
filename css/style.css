@@ -32,8 +32,10 @@ select {
 }
 /*Header*********/
 
-.logoisla{
-    z-index: 2;
+
+
+.logoisla2 img{
+	margin-left:9em;
 }
 
 .slick-prev:before {
@@ -1390,7 +1392,7 @@ td.event.important {
 /********************************
 -----------MEDIA QUERIES---------
 *********************************/
-@media screen and (min-width:1920px) {
+@media screen and (max-width:1920px) {
 	.middle--bottom{
 		margin-top: 34vh;
 	}
@@ -1403,18 +1405,21 @@ td.event.important {
     	background-size: 100%!important;
 	}
 
+
+
 }
 
-@media screen and (min-width:1600px) {
+@media screen and (max-width:1600px) {
 	
 	.middle--bottom{
 		margin-top: 0vh;
 	}
-
-	.logoisla {
-	    position: absolute;
-	    left: 19%;
+	
+	.logoisla2 img{
+		margin-left:2.5em;
 	}
+
+
 }
 
 @media screen and (min-width:1440px) {
