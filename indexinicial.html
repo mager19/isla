@@ -12,55 +12,105 @@
 </head>
 <body>
 
-<header>
-	<div class="container-fluid">
-		<div class="row">
-			<!-- Slide Principal -->
-			<div class="col-md-12 nopadding">
-				<div class="slide__principal">	
-					<div class="slide__item slide1"></div>
-					<div class="slide__item slide2" ></div>							
-				</div>
-			</div>
-			<!-- /Slide Principal -->
-		</div>
-	</div>
 
-	<!-- Menu Movil -->
-	<nav class="navbar">
-		<div class="container-fluid">
-			<div class="row">
-				<!-- Brand and toggle get grouped for better mobile display -->
-			    <div class="col-xs-4">
-			    	<div class="logo">
-						<a href="index.html"><img src="img/logomovil.png" alt="logo forum"></a>
-					</div>
-			    </div>
-			    <div class="col-xs-4">
-			    	<div class="navbar-header">
-			    		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-					        <span class="sr-only">Toggle navigation</span>
-					        <span class="icon-bar"></span>
-					        <span class="icon-bar"></span>
-					        <span class="icon-bar"></span>
-					     </button>		    	
+<!-- Header -->
+<header>
+<div class="container">		
+	<div class="row">
+		<!-- Menu Movil -->
+		<nav class="navbar">
+			<div class="container-fluid">
+				<div class="row">
+					<!-- Brand and toggle get grouped for better mobile display -->
+				    <div class="col-xs-4">
+				    	<div class="logo">
+							<a href="index.html"><img src="img/logomovil.png" alt="logo forum"></a>
+						</div>
 				    </div>
-			    </div>
-		
-				<div class="col-xs-1">
-					<div class="search__movil">
-						<a href="#" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" aria-expanded="false"><img src="img/search-tablet.png" alt="search"></a>
+				    <div class="col-xs-5">
+				    	<div class="navbar-header">
+				    		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						        <span class="sr-only">Toggle navigation</span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+						     </button>		    	
+					    </div>
+				    </div>
+			
+					<div class="col-xs-1">
+						<div class="search__movil">
+							<a href="#" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" aria-expanded="false"><img src="img/search-tablet.png" alt="search"></a>
+						</div>
 					</div>
-				</div>
+					
+					<div class="col-xs-2">
+						<div class="logogicsa">
+							<a href="#"><img src="img/gicsalogo.png" alt="Gicsa"></a>
+						</div>							
+					</div>
+				   <!-- Collect the nav links, forms, and other content for toggling -->
+				    <div class="col-xs-12">
+				    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul>
+								<li><a href="nosotros.html">NOSOTROS</a></li>
+								<li><a href="directorio.html">DIRECTORIO</a></li>
+								<li><a href="promociones.html">PROMOCIONES</a></li>
+								<li><a href="novedades.html">NOVEDADES</a></li>
+								<li><a href="eventos.html">EVENTOS</a></li>
+								<li><a href="contacto.html">CONTACTO</a></li>
+								<div class="icons">
+									<div class="row">
+										<div class="col-xs-offset-3 col-xs-2">
+											<img src="img/facebook-movil.png" alt="">
+										</div>
+										<div class="col-xs-2">
+											<img src="img/twitter-movil.png" alt="">
+										</div>
+										<div class="col-xs-2">
+											<img src="img/instagram-movil.png" alt="">
+										</div>
+									</div>
+								</div>
+
+								<div class="newsletter-movil">
+									<h4>SUSCRIBETE A NUESTRO NEWSLETTER</h4>
+									<input type="text">
+									<div class="col-xs-12"><a href="#">Enviar</a></div>
+								</div>
+							</ul>
+								
+				    	</div><!-- /.navbar-collapse -->
+				    </div>
+
+				    <!-- Search Movil -->
+				    <div class="col-xs-12">
+				    	<div class="collapse " id="bs-example-navbar-collapse-2">
+				    		<div class="row">
+				    			<div class="col-xs-9 col-xs-offset-2">
+				    				<div class="input__search__movil">
+				    					<input type="text">
+				    				</div>
+				    			</div>
+				    			<div class="col-xs-1">
+				    				<div class="up__movil">
+				    					<a href="#" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" aria-expanded="false"><img src="img/up.jpg" alt="up"></a>
+				    				</div>
+				    			</div>
+				    		</div>
+				    	</div>
+				    </div>
+				    <!-- /Search Movil -->
+				</div>  
+			</div><!-- /.container-fluid -->
+		</nav>
+		<!-- /Menu Movil -->
 				
-				<div class="col-xs-2">
-					<div class="logogicsa2">
-						<a href="#"><img src="img/gicsalogo.png" alt="Gicsa"></a>
-					</div>							
-				</div>
-			   <!-- Collect the nav links, forms, and other content for toggling -->
-			    <div class="col-xs-12">
-			    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		<!-- nav -->
+		<div class="col-md-12 nopadding hidden-xs">
+			<nav class="menu__principal">				
+				<div class="hidden-xs col-md-12 nopadding">
+					<div class="nav__contenido ">
 						<ul>
 							<li><a href="nosotros.html">NOSOTROS</a></li>
 							<li><a href="directorio.html">DIRECTORIO</a></li>
@@ -68,91 +118,43 @@
 							<li><a href="novedades.html">NOVEDADES</a></li>
 							<li><a href="eventos.html">EVENTOS</a></li>
 							<li><a href="contacto.html">CONTACTO</a></li>
-							<div class="icons">
-								<div class="row">
-									<div class="col-xs-offset-3 col-xs-2">
-										<img src="img/facebook-movil.png" alt="">
-									</div>
-									<div class="col-xs-2">
-										<img src="img/twitter-movil.png" alt="">
-									</div>
-									<div class="col-xs-2">
-										<img src="img/instagram-movil.png" alt="">
-									</div>
-								</div>
-							</div>
-
-							<div class="newsletter-movil">
-								<h4>SUSCRIBETE A NUESTRO NEWSLETTER</h4>
-								<input type="text">
-								<div class="col-xs-12"><a href="#">Enviar</a></div>
-							</div>
+							<li class="input__corto nohover"><input type="text"></li>
+							<li class="nohover socialmedia"><a href=""><img src="img/facebook.png" alt="Facebook"></a></li>
+							<li class="nohover socialmedia"><a href=""><img src="img/twitter.png" alt="twitter"></a></li>
+							<li class="nohover socialmedia"><a href=""><img src="img/instagram.png" alt="instagram"></a></li>
+							<li class="nohover"><a href=""><img src="img/gicsalogo.png" alt="Gicsa"></a></li>
 						</ul>
-							
-			    	</div><!-- /.navbar-collapse -->
-			    </div>
+					</div>					
+				</div>						
+			</nav>
+		</div>		
+		<!-- /nav -->
+		<!-- Slide Principal -->
+			<div class="col-md-12 nopadding">
+				<div class="slide__principal">	
+					<div class="slide__item">
+						<picture>
+						    <source srcset="img/header__movil.jpg" media="(max-width: 480px)">
+						    <img src="img/header.jpg" >
+						</picture>
+					</div>		
 
-			    <!-- Search Movil -->
-			    <div class="col-xs-12">
-			    	<div class="collapse " id="bs-example-navbar-collapse-2">
-			    		<div class="row">
-			    			<div class="col-xs-9 col-xs-offset-2">
-			    				<div class="input__search__movil">
-			    					<input type="text">
-			    				</div>
-			    			</div>
-			    			<div class="col-xs-1">
-			    				<div class="up__movil">
-			    					<a href="#" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" aria-expanded="false"><img src="img/up.jpg" alt="up"></a>
-			    				</div>
-			    			</div>
-			    		</div>
-			    	</div>
-			    </div>
-			    <!-- /Search Movil -->
-			</div>  
-		</div><!-- /.container-fluid -->
-	</nav>
-	<!-- /Menu Movil -->
-				
-	<div class="container-fluid">
-		<!-- nav -->
-		<div class="col-md-12 menu__principal2">
-			<div class="row">
-				<nav class="container">									
-					<div class="hidden-xs">	
-						<div class="col-md-1 col-md-offset-1">
-							<div class="logoisla">
-								<a href="index2.html"><img src="img/logoisla.png" alt="isla"></a>	
-							</div>
-						</div>		
-						<div class="col-md-9 col-md-offset-1">
-							<div class="nav__contenido">
-								<ul>
-									<li><a href="nosotros.html">NOSOTROS</a></li>
-									<li><a href="directorio.html">DIRECTORIO</a></li>
-									<li><a href="promociones.html">PROMOCIONES</a></li>
-									<li><a href="novedades.html">NOVEDADES</a></li>
-									<li><a href="eventos.html">EVENTOS</a></li>
-									<li><a href="contacto.html">CONTACTO</a></li>
-									<li class="input__corto nohover"><input type="text"></li>
-									<li class="nohover socialmedia"><a href=""><img src="img/facebook.png" alt="Facebook"></a></li>
-									<li class="nohover socialmedia"><a href=""><img src="img/twitter.png" alt="twitter"></a></li>
-									<li class="nohover socialmedia"><a href=""><img src="img/instagram.png" alt="instagram"></a></li>
-									<li class="nohover"><a href=""><img src="img/gicsalogo.png" alt="Gicsa"></a></li>
-								</ul>
-							</div>	
-						</div>															
-					</div>						
-				</nav>
+					<div class="slide__item">
+						<picture>
+						    <source srcset="img/header__movil.jpg" media="(max-width: 480px)">
+						    <img src="img/header.jpg" >
+						</picture>
+					</div>				
+				</div>
 			</div>
-		</div>
-	</div>			
-
+		<!-- /Slide Principal -->
+	</div>		
+</div>
 </header>
+<!-- /Header -->
 
 
-<!-- Middle -->
+	<!-- Middle -->
 <section class="middle">
 	<div class="container">
 		<div class="row">
@@ -289,7 +291,9 @@
 </section>
 <!-- Comparte -->
 
-<div class="container">
+<!-- Apps -->
+<section class="apps">
+	<div class="container">
 		<div class="row">
 			<!-- Ajuste para resolución 1024px-1279px - Oculto para el resto de Resoluciones-->
 			<div class="col-md-4 col-md-offset-4">
@@ -304,13 +308,10 @@
 			</div>
 			<!-- /Ajuste para resolución 1024px-1279px -->
 		</div>
-</div>
-
-<section class="apps2">
-	<div class="container">		
+		
 		<div class="row">
 			<!-- Newsletter -->
-			<div class="news2">
+			<div class="news">
 				<div class="col-md-9 hidden-xs">
 					<div class="news__content">
 						<div class="row">
@@ -341,7 +342,7 @@
 		</div>
 	</div>
 </section>
-<!-- /Middle -->
+<!-- /Apps -->
 
 <!-- Footer -->
 <footer class="footer">
@@ -349,95 +350,85 @@
 		<div class="row">
 			<div class="footer__container footer__container--grande">
 				<div class="row">
-					<div class="col-md-12">
-						<div class="row">
-							<div class="col-xs-offset-4 col-xs-4 col-md-2 col-md-offset-0">
-								<!-- footer item -->
-								<div class="footer__item2">
-									<img src="img/logo_footer.png" alt="Gicsa">
-								</div><!-- footer item -->
-							</div>
-							<!-- footer item -->
-							<div class="hidden-xs col-md-7 col-md-offset-3 footer__desktop">
-								<div class="footer__item">
-									<div class="row">
-										<div class="col-md-4 nopadding">
-											<ul>
-												<li>
-													<h4>FORUM</h4>
-												</li>
-												<li>
-													<h4>PASEO</h4>
-												</li>
-												<li>
-													<h4>LA ISLA</h4>
-												</li>
-												<li>
-													<h4>PLAZA OUTLET</h4>
-												</li>
-												<li>
-													<h4>EXPLANADA</h4>
-												</li>
-											</ul>
-										</div>
-										<div class="col-md-8 nopadding">
-											<ul class="nombres">
-												<li>
-													<h4>Buenavista | Coatzacoalcos | Cuernavaca | Tepic | Tlaquepaque</h4>
-												</li>
-												<li>
-													<h4>Arcos Bosques | Coapa | Querétano | Metepec | Xochimilco</h4>
-												</li>
-												<li>
-													<h4>Acapulco | Cabo Norte | Cancún | Mérida | Playa del Carmen | Puerto Vallarta</h4>
-												</li>
-												<li>
-													<h4>Cancún | Guadalajara | Lerma | Monterrey | Norte | Riviera Maya 1 | Sur</h4>
-												</li>
-												<li>
-													<h4>Culiacán | Querétano | León | Pachuca | Puebla</h4>
-												</li>
-											</ul>
-										</div>
-									</div>
-								</div> 
-							</div><!-- /footer item -->
-					
-							<div class="col-md-12">
-								<div class="aviso hidden-xs">
-									<a href="#">2017 - Aviso de Privacidad</a>
+					<div class="col-xs-offset-4 col-xs-4 col-md-5 col-md-offset-0">
+						<!-- footer item -->
+						<div class="footer__item">
+							<img src="img/logo_footer.png" alt="Gicsa">
+						</div><!-- footer item -->
+					</div>
+					<!-- footer item -->
+					<div class="hidden-xs col-md-7 footer__desktop">
+						<div class="footer__item">
+							<div class="row">
+								<div class="col-md-4 nopadding">
+									<ul>
+										<li>
+											<h4>FORUM</h4>
+										</li>
+										<li>
+											<h4>PASEO</h4>
+										</li>
+										<li>
+											<h4>LA ISLA</h4>
+										</li>
+										<li>
+											<h4>PLAZA OUTLET</h4>
+										</li>
+										<li>
+											<h4>EXPLANADA</h4>
+										</li>
+									</ul>
+								</div>
+								<div class="col-md-7 nopadding">
+									<ul class="nombres">
+										<li>
+											<h4>Buenavista | Coatzacoalcos | Cuernavaca | Tepic | Tlaquepaque</h4>
+										</li>
+										<li>
+											<h4>Arcos Bosques | Coapa | Querétano | Metepec | Xochimilco</h4>
+										</li>
+										<li>
+											<h4>Acapulco | Cabo Norte | Cancún | Mérida | Playa del Carmen | Puerto Vallarta</h4>
+										</li>
+										<li>
+											<h4>Cancún | Guadalajara | Lerma | Monterrey | Norte | Riviera Maya 1 | Sur</h4>
+										</li>
+										<li>
+											<h4>Culiacán | Querétano | León | Pachuca | Puebla</h4>
+										</li>
+									</ul>
 								</div>
 							</div>
-							<div class="col-xs-12 nombres__movil">
-								<h4>Forum</h4>
-								<ul class="nombres">
-									<li>Buenavista </li> <li>Coatzacoalcos </li> <li class="sin_separador">Cuernavaca</li> <li>Tepic </li> <li class="sin_separador">Tlaquepaque</li>
-								</ul>
-									
-								<h4>Paseo</h4>
-								<ul class="nombres">
-									<li>Arcos Bosques</li> <li>Coapa</li> <li class="sin_separador">Querétano</li> <li>Metepec</li> <li class="sin_separador">Xochimilco</li>
-									</li>
-								</ul>
-
-								<h4>La Isla</h4>
-								<ul class="nombres">
-									<li>Acapulco</li> <li>Cabo Norte</li>  <li class="sin_separador">Cancún</li>  <li >Mérida</li>  <li>Playa del Carmen</li>  <li class="sin_separador">Puerto Vallarta</li>
-								</ul>
-								
-								<h4>Plazas Outlet</h4>
-								<ul class="nombres">
-									<li>Cancún</li>  <li>Guadalajara</li>  <li class="sin_separador">Lerma</li>  <li>Monterrey</li>  <li>Norte</li>  <li class="sin_separador">Riviera Maya 1</li>  <li>Sur</li>
-								</ul>
-
-								<h4>Explanada</h4>
-								<ul class="nombres">
-									<li>Culiacán</li>  <li>Querétano</li>  <li>León</li>  <li class="sin_separador">Pachuca</li>  <li class="sin_separador">Puebla</li>
-								</ul>
-							</div>
 						</div>
+					</div><!-- /footer item -->
+
+					<div class="col-xs-12 nombres__movil">
+						<h4>Forum</h4>
+						<ul class="nombres">
+							<li>Buenavista </li> <li>Coatzacoalcos </li> <li class="sin_separador">Cuernavaca</li> <li>Tepic </li> <li class="sin_separador">Tlaquepaque</li>
+						</ul>
+							
+						<h4>Paseo</h4>
+						<ul class="nombres">
+							<li>Arcos Bosques</li> <li>Coapa</li> <li class="sin_separador">Querétano</li> <li>Metepec</li> <li class="sin_separador">Xochimilco</li>
+							</li>
+						</ul>
+
+						<h4>La Isla</h4>
+						<ul class="nombres">
+							<li>Acapulco</li> <li>Cabo Norte</li>  <li class="sin_separador">Cancún</li>  <li >Mérida</li>  <li>Playa del Carmen</li>  <li class="sin_separador">Puerto Vallarta</li>
+						</ul>
+						
+						<h4>Plazas Outlet</h4>
+						<ul class="nombres">
+							<li>Cancún</li>  <li>Guadalajara</li>  <li class="sin_separador">Lerma</li>  <li>Monterrey</li>  <li>Norte</li>  <li class="sin_separador">Riviera Maya 1</li>  <li>Sur</li>
+						</ul>
+
+						<h4>Explanada</h4>
+						<ul class="nombres">
+							<li>Culiacán</li>  <li>Querétano</li>  <li>León</li>  <li class="sin_separador">Pachuca</li>  <li class="sin_separador">Puebla</li>
+						</ul>
 					</div>
-					
 				</div>
 			</div>
 		</div>
@@ -445,15 +436,15 @@
 </footer>
 <!-- /Footer -->
 
-
-
 <script
   src="https://code.jquery.com/jquery-3.1.1.js"
   integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
   crossorigin="anonymous"></script>
 <script src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/slick.js"></script>
-<script>$(document).ready(function(){
+<script>
+$(document).ready(function(){
+
   $('.slide__principal').slick({
 		autoplay: false,
 		dots: false,
@@ -461,25 +452,6 @@
   		slidesToShow: 1,
   		slidesToScroll: 1,
   		arrows:true,
-  		autoplay:false,
-  		responsive: [
-  		    {
-		      breakpoint: 800,
-		      settings: {
-		        slidesToShow: 1,
-		        slidesToScroll: 1,
-		        infinite: true,
-		        
-		      }
-    		},    		
-    		{
-      		  breakpoint: 480,
-      		  settings: {
-        	  slidesToShow: 1,
-        	  slidesToScroll: 1
-      		}
-    },
-    	]
 	});
 
   	$('.stores').slick({
@@ -493,16 +465,6 @@
   		nextArrow: $('.tienda-next'),
 
   		responsive: [
-  			{
-		      breakpoint: 1280,
-		      settings: {
-		        slidesToShow: 8,
-		        slidesToScroll: 1,
-		        infinite: true,
-		        
-		      }
-    		},  
-
   			{
 		      breakpoint: 800,
 		      settings: {
@@ -518,14 +480,14 @@
         	  slidesToShow: 2,
         	  slidesToScroll: 1,
         	  arrows: false,
-      		  }
-    		},
-    			
+      		}
+    },
     	]
 	});
+  	
 
 
-	$('.slide__principal2').slick({
+  	 $('.slide__principal2').slick({
 		autoplay: false,
 		dots: false,
 		infinite: true,
@@ -536,8 +498,6 @@
   		nextArrow: $('.atardecer-next'),
 
   		responsive: [
-  			
-
 		    {
 		      breakpoint: 800,
 		      settings: {
@@ -557,7 +517,6 @@
     },
     	]
 	});
-
 
 
 });</script>

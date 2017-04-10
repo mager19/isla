@@ -156,7 +156,11 @@
 
 .slick-list.draggable{
     padding: 0px!important;
-    margin-left: 1px;
+    margin-left: 0px;
+}
+
+body > section.middle > div > div > div > div > div.stores.slick-initialized.slick-slider > div{
+    margin-left: 2px;
 }
 
 [dir='rtl'] .slick-prev:before,
