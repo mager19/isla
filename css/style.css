@@ -1385,6 +1385,163 @@ td.event.important {
 
 
 /********************************
+------------EVENTOS LISTA---------
+*********************************/
+
+.evento__lista{
+	margin-top: 11em;
+}
+
+.eventos__anteriores a{
+	color:#1a1a1a;
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+.evento__lista__item{
+	margin-top: 1.5em;
+	margin-bottom: 2em;
+}
+
+.eventos__lista__detalle__title{
+	margin-top: 1em;
+}
+
+.evento__lista .btn__rojo {
+	padding: 0.35em 0em;
+	width: 90%;
+}
+
+.evento__lista .btn__rojo a{
+	color:#fff;
+	font-size: 1em;
+	text-align: left!important;
+}
+
+.eventos__lista__detalle__title{
+	margin-left: 2em;
+}
+
+.btn__rojo__eventos{
+	background-color:#5F1F58;
+	color:#fff!important;
+	font-size: 1em!important;
+	font-weight: 300;
+	padding: 0.1em 3em;
+	text-align: center;
+	text-decoration: none!important;
+}
+
+.evento__lista__item p{
+	margin-top: 2em;
+	margin-bottom: 4em;
+}
+
+/********************************
+------------EVENTOS DETALLE---------
+*********************************/
+
+.fechas__evento ul{
+	margin-left: 2.6em;
+	margin-top: 0.5em;
+}
+
+.fechas__evento ul li{
+	font-weight: 600;
+	list-style: none;
+}
+
+.fechas__evento ul li span{
+	color:#1a1a1a;
+}
+
+.btn__eventos__detalles{
+    padding: 0.2em 1em;
+    margin-top: 6.5em;
+}
+
+.btn__eventos__detalles a{
+	color:#fff!important;
+}
+
+.eventos__detalle__imagen{
+	margin-top: 1em;
+	text-align: center;
+}
+
+.eventos__detalle__imagen img{
+	width: 100%;
+}
+
+.compartir__eventos__detalle{
+	margin-top: 7em;
+	text-align: center;
+}
+
+.compartir__eventos__detalle img:first-child{
+	margin-left: 1.5em;
+}
+
+.btn__calendars{
+	margin-top: 6em;
+}
+
+.btn__calendars .btn__eventos__detalles {
+ 	margin-top: 1em;
+}
+
+.btn__calendars .btn__rojo{
+	margin-left: 10%;
+	width: 80%;
+}
+
+
+/********************************
+-------------CONTACTO------------
+*********************************/
+
+.contacto{
+	margin-top: 11em;
+}
+
+.contacto p{
+	text-align: justify;
+}
+
+.formulario{
+	background-color: #9A9A9A;
+	padding: 3em 0;
+	margin: 3em 0;
+	text-align: center;
+}
+
+.formulario form{
+	margin-left: 5%;
+	width: 90%;
+}
+
+.formulario form input, .formulario form select, .formulario form textarea{
+	background-color: #C0C0C0;
+	border: 0px;
+	margin-bottom: 10px;
+	padding: 0.2em 0.5em;
+	width: 70%;
+}
+
+.formulario form button{
+	background-color: #5F1F58;
+	border: 0px;
+	color:#fff;
+	width: 30%;
+}
+
+.formulario form select{
+	color:#75758C;
+}
+
+	
+
+/********************************
 -----------MEDIA QUERIES---------
 *********************************/
 
@@ -1656,7 +1813,8 @@ td.event.important {
 	.evento__lista .btn__rojo a {
     	font-size: 0.8em;
    	}
-	
+
+
 	.selector__categoria select {
     	font-size: 0.8em;
 	}
@@ -2393,7 +2551,7 @@ td.event.important {
     }
 
     .contacto .nombre__seccion__movil{
-    	margin-bottom: 6em;
+    	margin-bottom: 9.5em;
     }
 
 	/*Promociones*/
@@ -3064,7 +3222,7 @@ td.event.important {
 	}
 
 	.btn__eventos__detalles {
-    	margin-top: 0em;
+    	margin-top: 3.5em;
 	}
 
 	.eventos__detalle__imagen img{
