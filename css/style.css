@@ -386,6 +386,7 @@ body > section.apps2{
 .stores__item img{
 	padding: 1.3em 0;
 	width: 100px;
+	height: 79px;
 }
 
 .middle__right{
@@ -429,6 +430,7 @@ body > section.apps2{
 .atardecer__item img{
 	padding: 0.25em 0;
 	width: 77px;
+	height: 82px;
 }
 
 .atardecer__slide{
@@ -1073,6 +1075,11 @@ body > section.apps2{
 	font-weight: 600;
 	margin-top: 2em;
 	text-align: center;
+}
+
+.promo__item__logo img{
+	width: 155px;
+	height: 120px;
 }
 
 .promo__item__otrainfo{
