@@ -916,7 +916,6 @@ body > section.apps2{
 
 .novedades__imagen img{
 	width: 545px;
-	height: 325px;
 }
 
 #loadMore {
@@ -1046,9 +1045,6 @@ body > section.apps2{
 	font-weight: 600;
 }
 
-.compartir__detalle img:first-child{
-	margin-left: 1em;
-}
 
 /********************************
 -----------PROMOCIONES---------
@@ -1485,9 +1481,6 @@ td.event.important {
 	text-align: center;
 }
 
-.compartir__eventos__detalle img:first-child{
-	margin-left: 1.5em;
-}
 
 .btn__calendars{
 	margin-top: 6em;
