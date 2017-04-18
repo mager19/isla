@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+	<script type="text/javascript" src="js/instafeed.min.js"></script>
 </head>
 <body>
 
@@ -239,47 +240,8 @@
 					<div class="atardecer__slide">
 						<div class="atardecer-prev"></div>
 						<div class="atardecer-next"></div>
-						<div class="slide__principal2">
-							<div class="atardecer__item">
-								<a href="#"><img src="img/atardecer/atardecer1.jpg" alt="tiendas forum"></a>
-							</div>	
-							<div class="atardecer__item">
-								<a href="#"><img src="img/header.jpg" alt="tiendas forum"></a>
-							</div>	
-							<div class="atardecer__item">
-								<a href="#"><img src="img/atardecer/atardecer3.jpg" alt="tiendas forum"></a>
-							</div>	
-							<div class="atardecer__item">
-								<a href="#"><img src="img/atardecer/atardecer1.jpg" alt="tiendas forum"></a>
-							</div>	
-							<div class="atardecer__item">
-								<a href="#"><img src="img/atardecer/atardecer2.jpg" alt="tiendas forum"></a>
-							</div>	
-							<div class="atardecer__item">
-								<a href="#"><img src="img/atardecer/atardecer3.jpg" alt="tiendas forum"></a>
-							</div>	
-							<div class="atardecer__item">
-								<a href="#"><img src="img/atardecer/atardecer1.jpg" alt="tiendas forum"></a>
-							</div>	
-							<div class="atardecer__item">
-								<a href="#"><img src="img/atardecer/atardecer2.jpg" alt="tiendas forum"></a>
-							</div>	
-							<div class="atardecer__item">
-								<a href="#"><img src="img/atardecer/atardecer3.jpg" alt="tiendas forum"></a>
-							</div>	
-							<div class="atardecer__item">
-								<a href="#"><img src="img/atardecer/atardecer1.jpg" alt="tiendas forum"></a>
-							</div>	
-							<div class="atardecer__item">
-								<a href="#"><img src="img/atardecer/atardecer2.jpg" alt="tiendas forum"></a>
-							</div>	
-							<div class="atardecer__item">
-								<a href="#"><img src="img/atardecer/atardecer3.jpg" alt="tiendas forum"></a>
-							</div>	
-							<div class="atardecer__item">
-								<a href="#"><img src="img/atardecer/atardecer2.jpg" alt="tiendas forum"></a>
-							</div>	
-
+						<div class="slide__principal2" id="instafeed">
+					
 						</div>
 					</div>
 				</div>
@@ -453,6 +415,57 @@
   crossorigin="anonymous"></script>
 <script src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/slick.js"></script>
+
+<script type="text/javascript">
+    var userFeed = new Instafeed({
+    	get: 'user',
+        userId: '36759062',
+        accessToken: '36759062.1677ed0.c12b78d05b474395910d3740290b79c0',
+        template: '<div class="atardecer__item"><a href="{{link}}" target="_blank"><img src="{{image}}" /></a></div>',
+        limit: 11,
+        resolution: 'standard_resolution',
+        
+        after: function () {
+       		$('.slide__principal2').slick({
+       			slidesToShow: 10,
+  				slidesToScroll: 1,
+  				autoplay: true,
+				dots: false,
+				infinite: true,
+		  		slidesToShow: 10,
+		  		slidesToScroll: 1,
+		  		arrows:true,
+		  		prevArrow: $('.atardecer-prev'),
+		  		nextArrow: $('.atardecer-next'),
+
+		  		responsive: [
+		  			
+
+				    {
+				      breakpoint: 800,
+				      settings: {
+				        slidesToShow: 3,
+				        slidesToScroll: 1,
+				        infinite: true,
+				        
+				      }
+		    		},    		
+		    		{
+		      		  breakpoint: 480,
+		      		  settings: {
+		        	  slidesToShow: 3,
+		        	  slidesToScroll: 1,
+		        	  arrows: false,
+		      		}
+		    },
+		    	]
+       		});
+    	}
+    });
+    userFeed.run();
+</script>
+
+
 <script>$(document).ready(function(){
   $('.slide__principal').slick({
 		autoplay: false,
@@ -525,41 +538,10 @@
 	});
 
 
-	$('.slide__principal2').slick({
-		autoplay: true,
-		dots: false,
-		infinite: true,
-  		slidesToShow: 10,
-  		slidesToScroll: 1,
-  		arrows:true,
-  		prevArrow: $('.atardecer-prev'),
-  		nextArrow: $('.atardecer-next'),
-
-  		responsive: [
-  			
-
-		    {
-		      breakpoint: 800,
-		      settings: {
-		        slidesToShow: 3,
-		        slidesToScroll: 1,
-		        infinite: true,
-		        
-		      }
-    		},    		
-    		{
-      		  breakpoint: 480,
-      		  settings: {
-        	  slidesToShow: 3,
-        	  slidesToScroll: 1,
-        	  arrows: false,
-      		}
-    },
-    	]
-	});
 
 
 
 });</script>
 </body>
 </html>
+

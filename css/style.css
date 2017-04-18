@@ -2136,6 +2136,7 @@ td.event.important {
 
     .stores__item img{
 		width: 80%;
+		height: 150px;
 	}
 
 	.atardecer__contenido{
@@ -2163,7 +2164,7 @@ td.event.important {
 
 	.atardecer__item img{
 		width: 230px;
-		height: 200px;
+		height: 230px;
 		padding-right: 10px;
 	}
 	
@@ -2906,6 +2907,7 @@ td.event.important {
 	.stores__item img {
     	padding: 1.3em 0;
     	width: 150px;
+    	height: 100px;
 	}
 
 	.atardecer__contenido h3, .atardecer__contenido h4 {
@@ -2923,7 +2925,7 @@ td.event.important {
 
 	.atardecer__item img{
 		width: 115px;
-		height: 110px;
+		height: 115px;
 		padding-right: 10px;
 	}
 	
