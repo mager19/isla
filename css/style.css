@@ -1446,8 +1446,6 @@ td.event.important {
 	padding-left: 2em;
 }
 
-
-
 /********************************
 ------------EVENTOS LISTA---------
 *********************************/
@@ -1563,42 +1561,71 @@ td.event.important {
 
 .contacto{
 	margin-top: 11em;
+	padding-bottom: 2em;
 }
 
 .contacto p{
 	text-align: justify;
 }
 
-.formulario{
-	background-color: #9A9A9A;
-	padding: 3em 0;
-	margin: 3em 0;
-	text-align: center;
+.formulario h3{
+	font-size: 1.2em;
+	font-weight: 700;
+	margin-left: 1em;
+	margin-bottom: 1.5em;
 }
 
-.formulario form{
-	margin-left: 5%;
-	width: 90%;
+.formulario form input{
+	border: 2px solid #959595;
+	float: left;
+	font-size: 0.7em;
+	margin: 0 2%;
+	margin-bottom: 3em;
+	padding: 1em 1em;
+	width: 46%;
 }
 
-.formulario form input, .formulario form select, .formulario form textarea{
-	background-color: #C0C0C0;
-	border: 0px;
-	margin-bottom: 10px;
-	padding: 0.2em 0.5em;
-	width: 70%;
+.formulario form input:nth-child(3){
+	width: 96%;
+}
+
+.formulario form textarea{
+	border: 2px solid #959595;
+	float: none;
+	margin:0 2%;
+	width: 96%;
 }
 
 .formulario form button{
 	background-color: #5F1F58;
+	border-radius: 3px;
 	border: 0px;
 	color:#fff;
+	padding: 0.5em 0;
+	margin-top: 5.1em;
+	margin-left: 3em;
 	width: 30%;
 }
 
-.formulario form select{
-	color:#75758C;
+.formulario form div{
+	float: left;
+	margin-top: 0.7em;
+	margin-bottom: 1.5em;
+	margin-left: 0.3em;
 }
+
+.contacto__mapa h3{
+	font-size: 1em;
+	font-weight: 600;
+	margin-top: 2em;
+	text-align: center;
+}
+
+.contacto__mapa iframe{
+	margin-top: 1em;
+	margin-left: 0.5em;
+}
+
 
 	
 
@@ -2606,28 +2633,24 @@ td.event.important {
 		width: 600px;
 	}
 
+	.tienda__title{
+		margin-top: 5em;
+	}
+
 	.formulario {
     	background-color: #ffffff;
 	    padding: 2em 0px;
     	margin: 0em 0px;
 	}
 
-	.formulario form {
-    	margin-left: -15%;
-    	width: 130%;
-	}
-
-	.formulario form textarea{
-		background-color: #F2F2F2;;
-	}
-
-	.formulario form input, .formulario form select, .formulario form textarea {
-   	   padding: 0.5em 0.5em;
+	.contacto .nombre__seccion__movil{
+    	margin-bottom: 6em;
     }
 
-    .contacto .nombre__seccion__movil{
-    	margin-bottom: 9.5em;
-    }
+    .formulario form button {
+    	margin-top: 1em;
+	    margin-left: 35%;
+	}
 
 	/*Promociones*/
 
@@ -3326,23 +3349,15 @@ td.event.important {
 		width: 330px;
 	}
 
+	
 	.formulario {
     	background-color: #ffffff;
 	    padding: 2em 0px;
     	margin: 0em 0px;
 	}
 
-	.formulario form {
-    	margin-left: -25%;
-    	width: 150%;
-	}
-
-	.formulario form textarea{
-		background-color: #F2F2F2;
-	}
-
-	.contacto .tienda__title img {
-    	margin-top: -3px;
+	.contacto__mapa iframe {
+        width: 320px;
 	}
 
 	/*Promociones*/
