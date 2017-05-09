@@ -502,9 +502,7 @@
 		</div>
 
 		<div class="col-md-4 col-md-offset-4">
-			<div class="cargar__mas__novedades">
-				<a href="#" class="btn__rojo" id="loadMore">Cargar más</a>
-			</div>
+			
 		</div>
 	</div>
 </section>
@@ -692,19 +690,25 @@ $(document).ready(function(){
     });
 });
 
-$('a[href=#top]').click(function () {
-    $('body,html').animate({
-        scrollTop: 0
-    }, 600);
-    return false;
-});
+$(document).scroll(function(e){
 
-$(window).scroll(function () {
-    if ($(this).scrollTop() > 50) {
-        $('.totop a').fadeIn();
-    } else {
-        $('.totop a').fadeOut();
-    }
+	    var scrollAmount = $(window).scrollTop();
+	    var documentHeight = $(document).height();
+	    var scrollPercent = (scrollAmount / documentHeight) * 100;
+	    var n = $( ".novedades__item:hidden" ).length;	
+	    if(scrollPercent > 40 ) {
+	       doSomething();	       
+	    }
+
+	    function doSomething() { 
+	    	if(n>0){
+	    		$(".novedades__item:hidden").slice(0,1).fadeIn( "slow" );  		
+	    	}
+
+	    	$('html,body').animate({
+            scrollTop: $(this).offset().top
+        	}, 1500);
+	    }
 });
 </script>
 </body>
