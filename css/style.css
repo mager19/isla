@@ -966,6 +966,12 @@ body > section.apps2{
 	margin-top: 1.5em;
 }
 
+.evento__lista__item{
+	display: none;
+	margin-top: 1.5em;
+}
+
+
 .promo__item{
 	display: none;
 	margin-top: 1.5em;
@@ -1584,6 +1590,12 @@ td.event.important {
 	padding: 1em 1em;
 	width: 46%;
 }
+
+.formulario form select{ 
+  color:#757575; 
+  font-size: 0.7em; 
+  font-family: 'Helvetica'; 
+} 
 
 .formulario form input:nth-child(3){
 	width: 96%;
@@ -3267,7 +3279,7 @@ td.event.important {
 	}
 
 	.novedades__imagen img {
-	    width: 350px;
+	    width: 330px;
 	    height: 220px;
 	}
 

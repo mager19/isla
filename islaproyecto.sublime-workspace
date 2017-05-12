@@ -252,10 +252,10 @@
 	"buffers":
 	[
 		{
-			"file": "contacto.html",
+			"file": "eventos__lista.html",
 			"settings":
 			{
-				"buffer_size": 12462,
+				"buffer_size": 23331,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -264,16 +264,16 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 55423,
+				"buffer_size": 55583,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/E/Dropbox/MIS DESARROLLOS/forum/css/style.css",
+			"file": "/E/desarrollo/forum__cuernavaca/eventos__lista.html",
 			"settings":
 			{
-				"buffer_size": 50906,
+				"buffer_size": 25794,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -357,17 +357,23 @@
 	],
 	"file_history":
 	[
-		"/E/Dropbox/MIS DESARROLLOS/forum/contacto.html",
+		"/E/desarrollo/forum__cuernavaca/directorio.html",
+		"/E/Dropbox/MIS DESARROLLOS/Isla/directorio.html",
+		"/E/Dropbox/MIS DESARROLLOS/Isla/promociones.html",
+		"/E/desarrollo/forum__cuernavaca/promociones.html",
+		"/E/Dropbox/MIS DESARROLLOS/Isla/novedades.html",
+		"/E/desarrollo/forum__cuernavaca/novedades.html",
+		"/E/Dropbox/MIS DESARROLLOS/Isla/contacto.html",
+		"/E/Dropbox/MIS DESARROLLOS/forum/css/style.css",
 		"/E/Dropbox/MIS DESARROLLOS/Isla/css/style.css",
+		"/E/Dropbox/MIS DESARROLLOS/forum/contacto.html",
 		"/E/Dropbox/MIS DESARROLLOS/Isla/index__english.html",
 		"/E/Dropbox/MIS DESARROLLOS/Isla/index.html",
 		"/C/Users/pcGrande/Desktop/Pendientes",
 		"/E/Dropbox/GICSA maquetado/maqueta_forum_home/css/style.css",
 		"/C/Users/pcGrande/Desktop/instafeed.js-master/src/instafeed.coffee",
 		"/C/Users/pcGrande/Desktop/instafeed.js-master/test/instafeedTest.coffee",
-		"/E/Dropbox/MIS DESARROLLOS/forum/css/style.css",
 		"/E/Dropbox/MIS DESARROLLOS/Isla/eventos__detalle.html",
-		"/E/Dropbox/MIS DESARROLLOS/Isla/contacto.html",
 		"/E/Dropbox/MIS DESARROLLOS/Isla/pru.html",
 		"/E/Dropbox/MIS DESARROLLOS/Isla/eventos.html",
 		"/E/Dropbox/MIS DESARROLLOS/forum/eventos__detalle.html",
@@ -375,19 +381,16 @@
 		"/E/Dropbox/MIS DESARROLLOS/Isla/evento__lista.html",
 		"/E/Dropbox/MIS DESARROLLOS/forum/eventos__lista.html",
 		"/E/Dropbox/MIS DESARROLLOS/Isla/novedades__detalle.html",
-		"/E/Dropbox/MIS DESARROLLOS/Isla/novedades.html",
 		"/E/Dropbox/MIS DESARROLLOS/Isla/tienda.html",
 		"/E/Dropbox/MIS DESARROLLOS/forum/eventos.html",
 		"/E/Dropbox/MIS DESARROLLOS/Isla/promociones__detalle.html",
 		"/E/Dropbox/MIS DESARROLLOS/forum/novedades__detalle.html",
 		"/E/Dropbox/MIS DESARROLLOS/forum/novedades.html",
-		"/E/Dropbox/MIS DESARROLLOS/Isla/promociones.html",
 		"/E/desarrollo/forum__cuernavaca/css/style.css",
 		"/E/Dropbox/MIS DESARROLLOS/forum/promociones__detalle.html",
 		"/E/Dropbox/MIS DESARROLLOS/Isla/nosotros.html",
 		"/E/Dropbox/MIS DESARROLLOS/forum/tienda.html",
 		"/E/Dropbox/MIS DESARROLLOS/forum/promociones.html",
-		"/E/Dropbox/MIS DESARROLLOS/Isla/directorio.html",
 		"/E/Dropbox/MIS DESARROLLOS/forum/directorio.html",
 		"/E/Dropbox/MIS DESARROLLOS/forum/css/bootstrap.css.map",
 		"/E/Dropbox/MIS DESARROLLOS/Isla/nosotros2.html",
@@ -481,10 +484,7 @@
 		"/I/xampp/htdocs/bugacity/wp-content/themes/tema-bugacity/functions.php",
 		"/C/Users/pcGrande/Desktop/mario.php",
 		"/C/Users/pcGrande/Desktop/form.blade.php",
-		"/C/Users/pcGrande/Desktop/Home",
-		"/E/marioform.blade.php",
-		"/I/Nos/app/Http/Models/CompanyModel.php",
-		"/C/Windows/System32/drivers/etc/hosts"
+		"/C/Users/pcGrande/Desktop/Home"
 	],
 	"find":
 	{
@@ -506,6 +506,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".novedades__imagen",
+			"  .novedades__imagen",
+			"  .novedades__imagen img",
+			"novedades__item",
 			".contacto__mapa",
 			"1000px",
 			"1000px ",
@@ -629,11 +633,7 @@
 			"1",
 			"<div class=\"categoria__item\">\n\t\t\t\t\t\t<img src=\"img/logos/logo1.jpg\" alt=\"\">\n\t\t\t\t\t\t<h4>Accesories</h4>\n\t\t\t\t\t\t<p>Horario 11:00 am - 9:00 pm</p>\n\t\t\t\t\t</div>",
 			";",
-			"pink",
-			"18",
-			"Header-directorio",
-			"1",
-			"-"
+			"pink"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -657,19 +657,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "contacto.html",
+					"file": "eventos__lista.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12462,
+						"buffer_size": 23331,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5704,
-								5691
+								22354,
+								22373
 							]
 						],
 						"settings":
@@ -681,8 +681,8 @@
 								{
 									"1":
 									[
-										5704,
-										5705
+										22373,
+										22374
 									]
 								},
 								"icon":
@@ -697,8 +697,8 @@
 								{
 									"1":
 									[
-										5690,
-										5691
+										22352,
+										22353
 									]
 								},
 								"unmatched":
@@ -707,11 +707,6 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
@@ -727,31 +722,6 @@
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
@@ -761,17 +731,47 @@
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
-								"bh_round_content"
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Boxy Ocean.tmTheme",
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 400.0,
+						"translation.y": 7184.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -780,15 +780,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 55423,
+						"buffer_size": 55583,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								49236,
-								49236
+								48478,
+								48478
 							]
 						],
 						"settings":
@@ -800,8 +800,8 @@
 								{
 									"1":
 									[
-										49238,
-										49239
+										48504,
+										48505
 									]
 								},
 								"icon":
@@ -816,8 +816,8 @@
 								{
 									"1":
 									[
-										49216,
-										49217
+										48462,
+										48463
 									]
 								},
 								"unmatched":
@@ -826,11 +826,6 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
@@ -846,31 +841,6 @@
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
@@ -880,14 +850,44 @@
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
-								"bh_round_content"
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Boxy Ocean.tmTheme",
 							"syntax": "Packages/CSS/CSS.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 66706.0,
+						"translation.y": 65086.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -895,19 +895,19 @@
 				},
 				{
 					"buffer": 2,
-					"file": "/E/Dropbox/MIS DESARROLLOS/forum/css/style.css",
+					"file": "/E/desarrollo/forum__cuernavaca/eventos__lista.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 50906,
+						"buffer_size": 25794,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								44960,
-								44813
+								24776,
+								25766
 							]
 						],
 						"settings":
@@ -930,11 +930,6 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
@@ -950,31 +945,6 @@
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
@@ -984,17 +954,47 @@
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
-								"bh_round_content"
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Boxy Ocean.tmTheme",
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 60311.0,
+						"translation.y": 9360.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
