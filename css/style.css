@@ -603,7 +603,7 @@ body > section.apps2{
 }
 
 .vista__aerea__info{
-	background-color:rgba(110,25,89,0.2);
+	background-color:#EBEBEB;
 	height: 350px;  
     overflow-y: scroll;  
    
@@ -739,9 +739,9 @@ body > section.apps2{
 	background-image: url("../img/logos/title_item.jpg");
 	background-size:cover;
 	color:#fff;
-	margin-left: 5%;
-	margin-top: -8px;
-	width: 90%;
+	margin-left: 6%;
+	margin-top: -10px;
+	width: 150px;
 }
 
 .categoria__item__title h4{
@@ -783,6 +783,10 @@ body > section.apps2{
 
 .detalle__tienda{
 	padding-top: 5em;
+}
+
+.solucion__footer{
+	min-height: 20vh;
 }
 
 .detalle__tienda p{
@@ -1858,10 +1862,7 @@ td.event.important {
         font-size: 0.9em;
     }
 
-    .categoria__item__title {
-	    margin-left: 0%;
-    	width: 112%;
-	}
+ 
 
 	/*detalle tienda*/
 	.imagen__tienda img{
@@ -1955,6 +1956,10 @@ td.event.important {
 
 @media (max-width: 1199px) {
 
+	.categoria__item__title {
+	    margin-left: 0%;
+	}
+	
 	.spain {
 	    padding-right: 5px;
     	padding-left: 5px;
@@ -2063,6 +2068,10 @@ td.event.important {
 	
 	.slide__item {
         background-position: center;
+	}
+
+	.solucion__footer{
+		min-height: 1px;
 	}
 
 	.navbar{
