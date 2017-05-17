@@ -426,12 +426,18 @@ body > section.apps2{
 
 .footer__container ul li h4{
 	font-size: 0.8em;
-	line-height: 1em;
+	line-height: 1.5em;
 }
 
-.footer__desktop{
-	
-}
+.footer__container ul li h4 a, .footer__container ul li h4 a:link, .footer__container ul li h4 a:visited, .footer__container ul li h4 a:hover,  
+.footer__container ul li h4 a:active  
+{  
+  color:#ccc;  
+}  
+  
+.nombres__movil ul li a, .nombres__movil ul li a:link, .nombres__movil ul li a:visited, .nombres__movil ul li a:hover, .nombres__movil ul li a:active{  
+  color:#ccc;  
+}  
 
 /*Middle********/
 .middle__item{
@@ -603,7 +609,7 @@ body > section.apps2{
 }
 
 .vista__aerea__info{
-	background-color:#EBEBEB;
+	background-color:#fafafa;
 	height: 350px;  
     overflow-y: scroll;  
    
@@ -1585,7 +1591,7 @@ td.event.important {
 	margin-bottom: 1.5em;
 }
 
-.formulario form input{
+/*.formulario form input{
 	border: 2px solid #959595;
 	float: left;
 	font-size: 0.7em;
@@ -1610,9 +1616,9 @@ td.event.important {
 	float: none;
 	margin:0 2%;
 	width: 96%;
-}
+}*/
 
-.formulario form button{
+.formulario div button{
 	background-color: #5F1F58;
 	border-radius: 3px;
 	border: 0px;
@@ -1623,12 +1629,12 @@ td.event.important {
 	width: 30%;
 }
 
-.formulario form div{
+/*.formulario form div{
 	float: left;
 	margin-top: 0.7em;
 	margin-bottom: 1.5em;
 	margin-left: 0.3em;
-}
+}*/
 
 .contacto__mapa h3{
 	font-size: 1em;
@@ -1642,6 +1648,9 @@ td.event.important {
 	margin-left: 0.5em;
 }
 
+.resultados{
+	padding: 10em 0 2em 0;
+}
 
 	
 
@@ -1936,6 +1945,7 @@ td.event.important {
     	border: 1px solid #959595;
     	width: 285px;
 	}
+
 
 	.resultados__container .promo__item--C, .promo__item__descripcion {
     	margin-top: 0em;
